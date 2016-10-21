@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TicketsViewController.h
 //  OnTheRoad
 //
 //  Created by Evandro Harrison Hoffmann on 21/10/2016.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface TicketsViewController : UIViewController
 
 @end
-

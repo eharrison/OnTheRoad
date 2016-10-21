@@ -9,13 +9,19 @@
 /* Begin PBXBuildFile section */
 		0AD853971DB994E5003B5C7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD853961DB994E5003B5C7B /* main.m */; };
 		0AD8539A1DB994E5003B5C7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD853991DB994E5003B5C7B /* AppDelegate.m */; };
-		0AD8539D1DB994E5003B5C7B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8539C1DB994E5003B5C7B /* ViewController.m */; };
-		0AD853A01DB994E5003B5C7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AD8539E1DB994E5003B5C7B /* Main.storyboard */; };
-		0AD853A31DB994E5003B5C7B /* OnTheRoad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0AD853A11DB994E5003B5C7B /* OnTheRoad.xcdatamodeld */; };
-		0AD853A51DB994E5003B5C7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AD853A41DB994E5003B5C7B /* Assets.xcassets */; };
-		0AD853A81DB994E5003B5C7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AD853A61DB994E5003B5C7B /* LaunchScreen.storyboard */; };
 		0AD853B31DB994E5003B5C7B /* OnTheRoadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD853B21DB994E5003B5C7B /* OnTheRoadTests.m */; };
 		0AD853BE1DB994E5003B5C7B /* OnTheRoadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD853BD1DB994E5003B5C7B /* OnTheRoadUITests.m */; };
+		0AD853D61DB9956B003B5C7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AD853CC1DB9956B003B5C7B /* Assets.xcassets */; };
+		0AD853D71DB9956B003B5C7B /* OnTheRoad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0AD853CF1DB9956B003B5C7B /* OnTheRoad.xcdatamodeld */; };
+		0AD853DE1DB995A8003B5C7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AD853DA1DB995A8003B5C7B /* LaunchScreen.storyboard */; };
+		0AD853DF1DB995A8003B5C7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AD853DC1DB995A8003B5C7B /* Main.storyboard */; };
+		0AD853E81DB9963D003B5C7B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0AD853E61DB9963D003B5C7B /* Localizable.strings */; };
+		0AD853F11DB9A0BD003B5C7B /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD853F01DB9A0BD003B5C7B /* IntroductionViewController.swift */; };
+		0AD853F41DB9A0D2003B5C7B /* TicketsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD853F31DB9A0D2003B5C7B /* TicketsViewController.m */; };
+		0AD853F71DB9AD16003B5C7B /* TicketsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD853F61DB9AD16003B5C7B /* TicketsViewModel.m */; };
+		0AD853FA1DB9B09A003B5C7B /* TransportationCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD853F91DB9B09A003B5C7B /* TransportationCollectionViewCell.m */; };
+		0AD853FD1DB9B0BA003B5C7B /* TicketOptionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD853FC1DB9B0BA003B5C7B /* TicketOptionTableViewCell.m */; };
+		0AD854101DB9B7B4003B5C7B /* UIView+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD854091DB9B7B4003B5C7B /* UIView+Animation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,12 +46,6 @@
 		0AD853961DB994E5003B5C7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0AD853981DB994E5003B5C7B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0AD853991DB994E5003B5C7B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0AD8539B1DB994E5003B5C7B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0AD8539C1DB994E5003B5C7B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0AD8539F1DB994E5003B5C7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0AD853A21DB994E5003B5C7B /* OnTheRoad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OnTheRoad.xcdatamodel; sourceTree = "<group>"; };
-		0AD853A41DB994E5003B5C7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0AD853A71DB994E5003B5C7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0AD853A91DB994E5003B5C7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0AD853AE1DB994E5003B5C7B /* OnTheRoadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnTheRoadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AD853B21DB994E5003B5C7B /* OnTheRoadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OnTheRoadTests.m; sourceTree = "<group>"; };
@@ -53,6 +53,23 @@
 		0AD853B91DB994E5003B5C7B /* OnTheRoadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnTheRoadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AD853BD1DB994E5003B5C7B /* OnTheRoadUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OnTheRoadUITests.m; sourceTree = "<group>"; };
 		0AD853BF1DB994E5003B5C7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AD853CC1DB9956B003B5C7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0AD853D01DB9956B003B5C7B /* OnTheRoad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OnTheRoad.xcdatamodel; sourceTree = "<group>"; };
+		0AD853DB1DB995A8003B5C7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Localization/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0AD853DD1DB995A8003B5C7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Localization/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0AD853E71DB9963D003B5C7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Localization/Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0AD853F01DB9A0BD003B5C7B /* IntroductionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroductionViewController.swift; sourceTree = "<group>"; };
+		0AD853F21DB9A0D2003B5C7B /* TicketsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicketsViewController.h; sourceTree = "<group>"; };
+		0AD853F31DB9A0D2003B5C7B /* TicketsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicketsViewController.m; sourceTree = "<group>"; };
+		0AD853F51DB9AD16003B5C7B /* TicketsViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicketsViewModel.h; sourceTree = "<group>"; };
+		0AD853F61DB9AD16003B5C7B /* TicketsViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicketsViewModel.m; sourceTree = "<group>"; };
+		0AD853F81DB9B09A003B5C7B /* TransportationCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransportationCollectionViewCell.h; sourceTree = "<group>"; };
+		0AD853F91DB9B09A003B5C7B /* TransportationCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransportationCollectionViewCell.m; sourceTree = "<group>"; };
+		0AD853FB1DB9B0BA003B5C7B /* TicketOptionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicketOptionTableViewCell.h; sourceTree = "<group>"; };
+		0AD853FC1DB9B0BA003B5C7B /* TicketOptionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicketOptionTableViewCell.m; sourceTree = "<group>"; };
+		0AD853FE1DB9B178003B5C7B /* OnTheRoad-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OnTheRoad-Bridging-Header.h"; sourceTree = "<group>"; };
+		0AD854081DB9B7B4003B5C7B /* UIView+Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Animation.h"; sourceTree = "<group>"; };
+		0AD854091DB9B7B4003B5C7B /* UIView+Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Animation.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,13 +122,13 @@
 			children = (
 				0AD853981DB994E5003B5C7B /* AppDelegate.h */,
 				0AD853991DB994E5003B5C7B /* AppDelegate.m */,
-				0AD8539B1DB994E5003B5C7B /* ViewController.h */,
-				0AD8539C1DB994E5003B5C7B /* ViewController.m */,
-				0AD8539E1DB994E5003B5C7B /* Main.storyboard */,
-				0AD853A41DB994E5003B5C7B /* Assets.xcassets */,
-				0AD853A61DB994E5003B5C7B /* LaunchScreen.storyboard */,
 				0AD853A91DB994E5003B5C7B /* Info.plist */,
-				0AD853A11DB994E5003B5C7B /* OnTheRoad.xcdatamodeld */,
+				0AD853CD1DB9956B003B5C7B /* Library */,
+				0AD853CE1DB9956B003B5C7B /* Model */,
+				0AD853D11DB9956B003B5C7B /* View */,
+				0AD853D81DB99583003B5C7B /* Storyboards */,
+				0AD853D91DB99593003B5C7B /* Localizable */,
+				0AD853CB1DB9956B003B5C7B /* Assets */,
 				0AD853951DB994E5003B5C7B /* Supporting Files */,
 			);
 			path = OnTheRoad;
@@ -141,6 +158,137 @@
 				0AD853BF1DB994E5003B5C7B /* Info.plist */,
 			);
 			path = OnTheRoadUITests;
+			sourceTree = "<group>";
+		};
+		0AD853CB1DB9956B003B5C7B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				0AD853CC1DB9956B003B5C7B /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		0AD853CD1DB9956B003B5C7B /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				0AD853FE1DB9B178003B5C7B /* OnTheRoad-Bridging-Header.h */,
+				0AD853FF1DB9B7B4003B5C7B /* Extensions */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		0AD853CE1DB9956B003B5C7B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0AD853CF1DB9956B003B5C7B /* OnTheRoad.xcdatamodeld */,
+				0AD853EA1DB996F0003B5C7B /* CoredataObjects */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0AD853D11DB9956B003B5C7B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0AD853E91DB9965F003B5C7B /* BaseControllers */,
+				0AD853D21DB9956B003B5C7B /* Controllers */,
+				0AD853D41DB9956B003B5C7B /* CustomViews */,
+				0AD853D31DB9956B003B5C7B /* CustomCells */,
+				0AD853D51DB9956B003B5C7B /* ViewModels */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0AD853D21DB9956B003B5C7B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0AD853EB1DB9A002003B5C7B /* Introduction */,
+				0AD853EC1DB9A002003B5C7B /* Tickets */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0AD853D31DB9956B003B5C7B /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				0AD853F81DB9B09A003B5C7B /* TransportationCollectionViewCell.h */,
+				0AD853F91DB9B09A003B5C7B /* TransportationCollectionViewCell.m */,
+				0AD853FB1DB9B0BA003B5C7B /* TicketOptionTableViewCell.h */,
+				0AD853FC1DB9B0BA003B5C7B /* TicketOptionTableViewCell.m */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		0AD853D41DB9956B003B5C7B /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		0AD853D51DB9956B003B5C7B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				0AD853F51DB9AD16003B5C7B /* TicketsViewModel.h */,
+				0AD853F61DB9AD16003B5C7B /* TicketsViewModel.m */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		0AD853D81DB99583003B5C7B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				0AD853DA1DB995A8003B5C7B /* LaunchScreen.storyboard */,
+				0AD853DC1DB995A8003B5C7B /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		0AD853D91DB99593003B5C7B /* Localizable */ = {
+			isa = PBXGroup;
+			children = (
+				0AD853E61DB9963D003B5C7B /* Localizable.strings */,
+			);
+			name = Localizable;
+			sourceTree = "<group>";
+		};
+		0AD853E91DB9965F003B5C7B /* BaseControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseControllers;
+			sourceTree = "<group>";
+		};
+		0AD853EA1DB996F0003B5C7B /* CoredataObjects */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CoredataObjects;
+			sourceTree = "<group>";
+		};
+		0AD853EB1DB9A002003B5C7B /* Introduction */ = {
+			isa = PBXGroup;
+			children = (
+				0AD853F01DB9A0BD003B5C7B /* IntroductionViewController.swift */,
+			);
+			path = Introduction;
+			sourceTree = "<group>";
+		};
+		0AD853EC1DB9A002003B5C7B /* Tickets */ = {
+			isa = PBXGroup;
+			children = (
+				0AD853F21DB9A0D2003B5C7B /* TicketsViewController.h */,
+				0AD853F31DB9A0D2003B5C7B /* TicketsViewController.m */,
+			);
+			path = Tickets;
+			sourceTree = "<group>";
+		};
+		0AD853FF1DB9B7B4003B5C7B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0AD854081DB9B7B4003B5C7B /* UIView+Animation.h */,
+				0AD854091DB9B7B4003B5C7B /* UIView+Animation.m */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,6 +359,7 @@
 					0AD853911DB994E4003B5C7B = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = S2DSCP4F3H;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					0AD853AD1DB994E5003B5C7B = {
@@ -252,9 +401,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AD853A81DB994E5003B5C7B /* LaunchScreen.storyboard in Resources */,
-				0AD853A51DB994E5003B5C7B /* Assets.xcassets in Resources */,
-				0AD853A01DB994E5003B5C7B /* Main.storyboard in Resources */,
+				0AD853DF1DB995A8003B5C7B /* Main.storyboard in Resources */,
+				0AD853E81DB9963D003B5C7B /* Localizable.strings in Resources */,
+				0AD853D61DB9956B003B5C7B /* Assets.xcassets in Resources */,
+				0AD853DE1DB995A8003B5C7B /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,10 +429,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AD8539D1DB994E5003B5C7B /* ViewController.m in Sources */,
+				0AD853D71DB9956B003B5C7B /* OnTheRoad.xcdatamodeld in Sources */,
+				0AD853F71DB9AD16003B5C7B /* TicketsViewModel.m in Sources */,
+				0AD853F11DB9A0BD003B5C7B /* IntroductionViewController.swift in Sources */,
+				0AD853F41DB9A0D2003B5C7B /* TicketsViewController.m in Sources */,
+				0AD853FA1DB9B09A003B5C7B /* TransportationCollectionViewCell.m in Sources */,
 				0AD8539A1DB994E5003B5C7B /* AppDelegate.m in Sources */,
-				0AD853A31DB994E5003B5C7B /* OnTheRoad.xcdatamodeld in Sources */,
+				0AD853FD1DB9B0BA003B5C7B /* TicketOptionTableViewCell.m in Sources */,
 				0AD853971DB994E5003B5C7B /* main.m in Sources */,
+				0AD854101DB9B7B4003B5C7B /* UIView+Animation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,20 +473,28 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0AD8539E1DB994E5003B5C7B /* Main.storyboard */ = {
+		0AD853DA1DB995A8003B5C7B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0AD8539F1DB994E5003B5C7B /* Base */,
+				0AD853DB1DB995A8003B5C7B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0AD853DC1DB995A8003B5C7B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AD853DD1DB995A8003B5C7B /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		0AD853A61DB994E5003B5C7B /* LaunchScreen.storyboard */ = {
+		0AD853E61DB9963D003B5C7B /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0AD853A71DB994E5003B5C7B /* Base */,
+				0AD853E71DB9963D003B5C7B /* Base */,
 			);
-			name = LaunchScreen.storyboard;
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -431,11 +594,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = S2DSCP4F3H;
 				INFOPLIST_FILE = OnTheRoad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.itsdayoff.OnTheRoad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OnTheRoad/Library/OnTheRoad-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -443,17 +611,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = S2DSCP4F3H;
 				INFOPLIST_FILE = OnTheRoad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.itsdayoff.OnTheRoad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OnTheRoad/Library/OnTheRoad-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		0AD853C61DB994E5003B5C7B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = S2DSCP4F3H;
 				INFOPLIST_FILE = OnTheRoadTests/Info.plist;
@@ -467,6 +640,7 @@
 		0AD853C71DB994E5003B5C7B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = S2DSCP4F3H;
 				INFOPLIST_FILE = OnTheRoadTests/Info.plist;
@@ -480,6 +654,7 @@
 		0AD853C91DB994E5003B5C7B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = S2DSCP4F3H;
 				INFOPLIST_FILE = OnTheRoadUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -492,6 +667,7 @@
 		0AD853CA1DB994E5003B5C7B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = S2DSCP4F3H;
 				INFOPLIST_FILE = OnTheRoadUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -540,12 +716,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		0AD853A11DB994E5003B5C7B /* OnTheRoad.xcdatamodeld */ = {
+		0AD853CF1DB9956B003B5C7B /* OnTheRoad.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				0AD853A21DB994E5003B5C7B /* OnTheRoad.xcdatamodel */,
+				0AD853D01DB9956B003B5C7B /* OnTheRoad.xcdatamodel */,
 			);
-			currentVersion = 0AD853A21DB994E5003B5C7B /* OnTheRoad.xcdatamodel */;
+			currentVersion = 0AD853D01DB9956B003B5C7B /* OnTheRoad.xcdatamodel */;
 			path = OnTheRoad.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
