@@ -28,8 +28,8 @@ extension Ticket {
 @objc(Ticket)
 public class Ticket: NSManagedObject {
     
-    static func tickets(withType type: Int) -> [Ticket]?{
-        return list(predicate: NSPredicate(format: "type == %d", type)) as? [Ticket]
+    static func tickets(withType type: Int, ascending: Bool) -> [Ticket]?{
+        return list(sortDescriptor: NSSortDescriptor(key: "departureTime", ascending: ascending), predicate: NSPredicate(format: "type == %d", type)) as? [Ticket]
     }
     
     //MARK: - JSON PARSING

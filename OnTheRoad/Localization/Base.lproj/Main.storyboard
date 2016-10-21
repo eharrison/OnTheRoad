@@ -307,11 +307,25 @@
                                     <constraint firstItem="1Pc-dX-e87" firstAttribute="leading" secondItem="c0n-WZ-C66" secondAttribute="leading" id="wuf-jD-RFK"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6qU-L2-Qfp">
+                                <color key="tintColor" red="0.50100648400000003" green="0.59068185090000003" blue="0.97647982840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Descending">
+                                    <color key="titleColor" red="0.98845857380000002" green="0.84431922439999996" blue="0.33294820790000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <state key="selected" title="Ascending">
+                                    <color key="titleColor" red="0.98845857380000002" green="0.84431922439999996" blue="0.33294820790000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="reorderButtonPressed:" destination="6Jc-JW-wfJ" eventType="touchUpInside" id="0fH-4N-aXg"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="trailing" secondItem="6qU-L2-Qfp" secondAttribute="trailing" constant="16" id="3cn-OW-oyE"/>
                             <constraint firstItem="an0-uP-YgK" firstAttribute="top" secondItem="c0n-WZ-C66" secondAttribute="bottom" id="ZFE-qP-LvG"/>
                             <constraint firstAttribute="trailing" secondItem="c0n-WZ-C66" secondAttribute="trailing" id="crO-wF-Nrs"/>
+                            <constraint firstItem="c0n-WZ-C66" firstAttribute="top" secondItem="6qU-L2-Qfp" secondAttribute="bottom" constant="8" id="fMH-p7-07X"/>
                             <constraint firstItem="c0n-WZ-C66" firstAttribute="leading" secondItem="SaO-Eb-vIr" secondAttribute="leading" id="yXP-8m-B0E"/>
                             <constraint firstItem="c0n-WZ-C66" firstAttribute="top" secondItem="SaO-Eb-vIr" secondAttribute="top" constant="64" id="yoY-xA-YXC"/>
                         </constraints>
@@ -323,6 +337,7 @@
                         <outlet property="contentView" destination="c0n-WZ-C66" id="gzN-Hy-DSk"/>
                         <outlet property="flightButton" destination="JnM-Xz-Umd" id="UWC-cx-8e0"/>
                         <outlet property="indicatorView" destination="Suo-nt-gv0" id="oWZ-NL-KVQ"/>
+                        <outlet property="reorderButton" destination="6qU-L2-Qfp" id="K74-5Y-X54"/>
                         <outlet property="trainButton" destination="d71-bH-dm5" id="n51-vR-tXC"/>
                     </connections>
                 </viewController>

@@ -24,6 +24,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *busButton;
 @property (weak, nonatomic) IBOutlet UIButton *flightButton;
 @property (weak, nonatomic) IBOutlet UIView *indicatorView;
+@property (weak, nonatomic) IBOutlet UIButton *reorderButton;
 
 @end
 
@@ -33,6 +34,10 @@
     [super viewDidLoad];
     
     self.ticketsViewModel = [[TicketsViewModel alloc] init];
+    
+    //start ordering ascending
+    self.reorderButton.selected = true;
+    self.ticketsViewModel.sortTicketsAscending = self.reorderButton.selected;
 }
 
 -(void)viewWillAppear:(BOOL)animated{
@@ -49,6 +54,7 @@
 
 -(void)prepareForAnimation{
     self.contentView.hidden = true;
+    self.reorderButton.alpha = 0;
 }
 
 -(void)animateIn{
@@ -62,12 +68,19 @@
         if(finished){
             [UIView animateWithDuration:0.1 animations:^{
                 self.contentView.transform = CGAffineTransformMakeScale(1, 1);
+                self.reorderButton.alpha = 1;
             }];
         }
     }];
 }
 
 #pragma mark - Events
+
+- (IBAction)reorderButtonPressed:(id)sender {
+    self.reorderButton.selected = !self.reorderButton.selected;
+    self.ticketsViewModel.sortTicketsAscending = ! self.reorderButton.selected;
+    [self.collectionView reloadData];
+}
 
 - (IBAction)trainButtonPressed:(id)sender {
     [sender animateTouchDownWithCompletion:nil];

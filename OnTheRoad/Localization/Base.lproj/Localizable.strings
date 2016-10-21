@@ -2,3 +2,6 @@
 "Direct" = "Direct";
 "1 stop" = "1 stop";
 "stops"  = "stops";
+
+"failed_fetch_offers"="Failed to Fetch the Offers";
+"offer_details_not_implemented" = "Offer details are not yet implemented!";

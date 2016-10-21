@@ -26,7 +26,7 @@
 }
 
 -(NSArray *)tickets{
-    return [Ticket ticketsWithType:self.selectedTicketType];
+    return [Ticket ticketsWithType:self.selectedTicketType ascending:self.sortTicketsAscending];
 }
 
 #pragma mark - Transportation Options
@@ -46,6 +46,7 @@
 -(TicketsViewModel*)ticketsViewModelForIndexPath:(NSIndexPath*)indexPath{
     TicketsViewModel *ticketsViewModel = [[TicketsViewModel alloc] init];
     ticketsViewModel.selectedTicketType = (TicketType)indexPath.row;
+    ticketsViewModel.sortTicketsAscending = self.sortTicketsAscending;
     return ticketsViewModel;
 }
 

@@ -31,7 +31,7 @@
             [self.tableView reloadData];
         } failure:^{
             [self stopLoadingAnimation];
-            [[[UIAlertView alloc] initWithTitle:nil message:NSLocalizedString(@"Failed to Fetch the Tickets", @"") delegate:nil cancelButtonTitle:nil otherButtonTitles:nil] show];
+            [[[UIAlertView alloc] initWithTitle:nil message:NSLocalizedString(@"failed_fetch_offers", @"") delegate:nil cancelButtonTitle:NSLocalizedString(@"Ok", @"") otherButtonTitles:nil] show];
         }];
     }
 }
@@ -49,6 +49,12 @@
 -(void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath{
     [self.ticketsViewModel willDisplayCell:cell atIndexPath:indexPath];
     [cell.contentView animatePopUp];
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    [[tableView cellForRowAtIndexPath:indexPath].contentView animateTouchDownWithCompletion:^{
+        [[[UIAlertView alloc] initWithTitle:nil message:NSLocalizedString(@"offer_details_not_implemented", @"") delegate:nil cancelButtonTitle:NSLocalizedString(@"Ok", @"") otherButtonTitles:nil] show];
+    }];
 }
 
 @end

@@ -13,6 +13,7 @@
 @interface TicketsViewModel : NSObject
 
 @property (nonatomic, assign) TicketType selectedTicketType;
+@property (nonatomic, assign) bool sortTicketsAscending;
 
 #pragma mark - Data
 
