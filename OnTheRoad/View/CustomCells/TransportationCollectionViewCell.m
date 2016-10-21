@@ -8,6 +8,8 @@
 
 #import "TransportationCollectionViewCell.h"
 #import "UIView+Animation.h"
+#import "NSDate+Custom.h"
+#import "OnTheRoad-swift.h"
 
 @implementation TransportationCollectionViewCell
 
@@ -20,6 +22,18 @@
 -(void)configWithTicketsViewModel:(TicketsViewModel*)ticketsViewModel{
     self.ticketsViewModel = ticketsViewModel;
     [self.tableView reloadData];
+    
+    //if no results, fetch from url
+    if (self.ticketsViewModel.tickets.count == 0){
+        [self startLoadingAnimation];
+        [self.ticketsViewModel fetchTickets:^{
+            [self stopLoadingAnimation];
+            [self.tableView reloadData];
+        } failure:^{
+            [self stopLoadingAnimation];
+            [[[UIAlertView alloc] initWithTitle:nil message:NSLocalizedString(@"Failed to Fetch the Tickets", @"") delegate:nil cancelButtonTitle:nil otherButtonTitles:nil] show];
+        }];
+    }
 }
 
 #pragma mark - UITableViewDelegate
@@ -33,6 +47,7 @@
 }
 
 -(void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath{
+    [self.ticketsViewModel willDisplayCell:cell atIndexPath:indexPath];
     [cell.contentView animatePopUp];
 }
 

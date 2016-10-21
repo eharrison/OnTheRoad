@@ -22,6 +22,24 @@
 		0AD853FA1DB9B09A003B5C7B /* TransportationCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD853F91DB9B09A003B5C7B /* TransportationCollectionViewCell.m */; };
 		0AD853FD1DB9B0BA003B5C7B /* TicketOptionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD853FC1DB9B0BA003B5C7B /* TicketOptionTableViewCell.m */; };
 		0AD854101DB9B7B4003B5C7B /* UIView+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD854091DB9B7B4003B5C7B /* UIView+Animation.m */; };
+		0AD8541A1DB9DE9E003B5C7B /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD854181DB9DE9E003B5C7B /* Ticket.swift */; };
+		0AD8547C1DB9E384003B5C7B /* AwesomeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD854681DB9E384003B5C7B /* AwesomeData.swift */; };
+		0AD8547E1DB9E384003B5C7B /* AwesomeCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8546C1DB9E384003B5C7B /* AwesomeCacheManager.swift */; };
+		0AD8547F1DB9E384003B5C7B /* AwesomeDataAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8546E1DB9E384003B5C7B /* AwesomeDataAccess.swift */; };
+		0AD854801DB9E384003B5C7B /* NSManagedObject+Awesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8546F1DB9E384003B5C7B /* NSManagedObject+Awesome.swift */; };
+		0AD854811DB9E384003B5C7B /* UIButton+Awesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD854711DB9E384003B5C7B /* UIButton+Awesome.swift */; };
+		0AD854821DB9E384003B5C7B /* UICollectionViewCell+Awesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD854721DB9E384003B5C7B /* UICollectionViewCell+Awesome.swift */; };
+		0AD854831DB9E384003B5C7B /* UIImage+Awesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD854731DB9E384003B5C7B /* UIImage+Awesome.swift */; };
+		0AD854841DB9E384003B5C7B /* UIImageView+Awesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD854741DB9E384003B5C7B /* UIImageView+Awesome.swift */; };
+		0AD854851DB9E384003B5C7B /* UITableViewCell+Awesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD854751DB9E384003B5C7B /* UITableViewCell+Awesome.swift */; };
+		0AD854861DB9E384003B5C7B /* AwesomeFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD854771DB9E384003B5C7B /* AwesomeFetcher.swift */; };
+		0AD854871DB9E384003B5C7B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD854791DB9E384003B5C7B /* Extensions.swift */; };
+		0AD854881DB9E384003B5C7B /* AwesomeParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8547B1DB9E384003B5C7B /* AwesomeParser.swift */; };
+		0AD8548B1DB9E637003B5C7B /* APIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8548A1DB9E637003B5C7B /* APIManager.m */; };
+		0AD8548F1DBA0D25003B5C7B /* NSDate+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8548E1DBA0D25003B5C7B /* NSDate+Custom.m */; };
+		0AD8549B1DBA1209003B5C7B /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD854981DBA1209003B5C7B /* LoadingView.swift */; };
+		0AD8549C1DBA1209003B5C7B /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AD854991DBA1209003B5C7B /* LoadingView.xib */; };
+		0AD8549D1DBA1209003B5C7B /* UIView+Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD8549A1DBA1209003B5C7B /* UIView+Loading.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +88,27 @@
 		0AD853FE1DB9B178003B5C7B /* OnTheRoad-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OnTheRoad-Bridging-Header.h"; sourceTree = "<group>"; };
 		0AD854081DB9B7B4003B5C7B /* UIView+Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Animation.h"; sourceTree = "<group>"; };
 		0AD854091DB9B7B4003B5C7B /* UIView+Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Animation.m"; sourceTree = "<group>"; };
+		0AD854181DB9DE9E003B5C7B /* Ticket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
+		0AD854681DB9E384003B5C7B /* AwesomeData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AwesomeData.swift; sourceTree = "<group>"; };
+		0AD8546C1DB9E384003B5C7B /* AwesomeCacheManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AwesomeCacheManager.swift; sourceTree = "<group>"; };
+		0AD8546E1DB9E384003B5C7B /* AwesomeDataAccess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AwesomeDataAccess.swift; sourceTree = "<group>"; };
+		0AD8546F1DB9E384003B5C7B /* NSManagedObject+Awesome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSManagedObject+Awesome.swift"; sourceTree = "<group>"; };
+		0AD854711DB9E384003B5C7B /* UIButton+Awesome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Awesome.swift"; sourceTree = "<group>"; };
+		0AD854721DB9E384003B5C7B /* UICollectionViewCell+Awesome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionViewCell+Awesome.swift"; sourceTree = "<group>"; };
+		0AD854731DB9E384003B5C7B /* UIImage+Awesome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Awesome.swift"; sourceTree = "<group>"; };
+		0AD854741DB9E384003B5C7B /* UIImageView+Awesome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Awesome.swift"; sourceTree = "<group>"; };
+		0AD854751DB9E384003B5C7B /* UITableViewCell+Awesome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Awesome.swift"; sourceTree = "<group>"; };
+		0AD854771DB9E384003B5C7B /* AwesomeFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AwesomeFetcher.swift; sourceTree = "<group>"; };
+		0AD854791DB9E384003B5C7B /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		0AD8547B1DB9E384003B5C7B /* AwesomeParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AwesomeParser.swift; sourceTree = "<group>"; };
+		0AD854891DB9E637003B5C7B /* APIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIManager.h; sourceTree = "<group>"; };
+		0AD8548A1DB9E637003B5C7B /* APIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIManager.m; sourceTree = "<group>"; };
+		0AD8548C1DBA00F4003B5C7B /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		0AD8548D1DBA0D25003B5C7B /* NSDate+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Custom.h"; sourceTree = "<group>"; };
+		0AD8548E1DBA0D25003B5C7B /* NSDate+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Custom.m"; sourceTree = "<group>"; };
+		0AD854981DBA1209003B5C7B /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		0AD854991DBA1209003B5C7B /* LoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
+		0AD8549A1DBA1209003B5C7B /* UIView+Loading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Loading.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +142,7 @@
 				0AD853941DB994E4003B5C7B /* OnTheRoad */,
 				0AD853B11DB994E5003B5C7B /* OnTheRoadTests */,
 				0AD853BC1DB994E5003B5C7B /* OnTheRoadUITests */,
+				0AD854661DB9E384003B5C7B /* AwesomeData */,
 				0AD853931DB994E4003B5C7B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -172,6 +212,9 @@
 			isa = PBXGroup;
 			children = (
 				0AD853FE1DB9B178003B5C7B /* OnTheRoad-Bridging-Header.h */,
+				0AD854891DB9E637003B5C7B /* APIManager.h */,
+				0AD8548A1DB9E637003B5C7B /* APIManager.m */,
+				0AD8548C1DBA00F4003B5C7B /* Constants.h */,
 				0AD853FF1DB9B7B4003B5C7B /* Extensions */,
 			);
 			path = Library;
@@ -221,6 +264,7 @@
 		0AD853D41DB9956B003B5C7B /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
+				0AD854971DBA1209003B5C7B /* Loading */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -261,6 +305,7 @@
 		0AD853EA1DB996F0003B5C7B /* CoredataObjects */ = {
 			isa = PBXGroup;
 			children = (
+				0AD854181DB9DE9E003B5C7B /* Ticket.swift */,
 			);
 			path = CoredataObjects;
 			sourceTree = "<group>";
@@ -287,8 +332,95 @@
 			children = (
 				0AD854081DB9B7B4003B5C7B /* UIView+Animation.h */,
 				0AD854091DB9B7B4003B5C7B /* UIView+Animation.m */,
+				0AD8548D1DBA0D25003B5C7B /* NSDate+Custom.h */,
+				0AD8548E1DBA0D25003B5C7B /* NSDate+Custom.m */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0AD854661DB9E384003B5C7B /* AwesomeData */ = {
+			isa = PBXGroup;
+			children = (
+				0AD854671DB9E384003B5C7B /* Classes */,
+			);
+			path = AwesomeData;
+			sourceTree = "<group>";
+		};
+		0AD854671DB9E384003B5C7B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0AD854681DB9E384003B5C7B /* AwesomeData.swift */,
+				0AD854691DB9E384003B5C7B /* Cache */,
+				0AD8546D1DB9E384003B5C7B /* CoreData */,
+				0AD854701DB9E384003B5C7B /* Extensions */,
+				0AD854761DB9E384003B5C7B /* Fetcher */,
+				0AD854781DB9E384003B5C7B /* Formatting */,
+				0AD8547A1DB9E384003B5C7B /* Parser */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0AD854691DB9E384003B5C7B /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				0AD8546C1DB9E384003B5C7B /* AwesomeCacheManager.swift */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		0AD8546D1DB9E384003B5C7B /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				0AD8546E1DB9E384003B5C7B /* AwesomeDataAccess.swift */,
+				0AD8546F1DB9E384003B5C7B /* NSManagedObject+Awesome.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		0AD854701DB9E384003B5C7B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0AD854711DB9E384003B5C7B /* UIButton+Awesome.swift */,
+				0AD854721DB9E384003B5C7B /* UICollectionViewCell+Awesome.swift */,
+				0AD854731DB9E384003B5C7B /* UIImage+Awesome.swift */,
+				0AD854741DB9E384003B5C7B /* UIImageView+Awesome.swift */,
+				0AD854751DB9E384003B5C7B /* UITableViewCell+Awesome.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0AD854761DB9E384003B5C7B /* Fetcher */ = {
+			isa = PBXGroup;
+			children = (
+				0AD854771DB9E384003B5C7B /* AwesomeFetcher.swift */,
+			);
+			path = Fetcher;
+			sourceTree = "<group>";
+		};
+		0AD854781DB9E384003B5C7B /* Formatting */ = {
+			isa = PBXGroup;
+			children = (
+				0AD854791DB9E384003B5C7B /* Extensions.swift */,
+			);
+			path = Formatting;
+			sourceTree = "<group>";
+		};
+		0AD8547A1DB9E384003B5C7B /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				0AD8547B1DB9E384003B5C7B /* AwesomeParser.swift */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		0AD854971DBA1209003B5C7B /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				0AD854981DBA1209003B5C7B /* LoadingView.swift */,
+				0AD854991DBA1209003B5C7B /* LoadingView.xib */,
+				0AD8549A1DBA1209003B5C7B /* UIView+Loading.swift */,
+			);
+			path = Loading;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -405,6 +537,7 @@
 				0AD853E81DB9963D003B5C7B /* Localizable.strings in Resources */,
 				0AD853D61DB9956B003B5C7B /* Assets.xcassets in Resources */,
 				0AD853DE1DB995A8003B5C7B /* LaunchScreen.storyboard in Resources */,
+				0AD8549C1DBA1209003B5C7B /* LoadingView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,15 +562,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AD854841DB9E384003B5C7B /* UIImageView+Awesome.swift in Sources */,
+				0AD854851DB9E384003B5C7B /* UITableViewCell+Awesome.swift in Sources */,
+				0AD8548B1DB9E637003B5C7B /* APIManager.m in Sources */,
 				0AD853D71DB9956B003B5C7B /* OnTheRoad.xcdatamodeld in Sources */,
 				0AD853F71DB9AD16003B5C7B /* TicketsViewModel.m in Sources */,
+				0AD854801DB9E384003B5C7B /* NSManagedObject+Awesome.swift in Sources */,
+				0AD854881DB9E384003B5C7B /* AwesomeParser.swift in Sources */,
+				0AD854831DB9E384003B5C7B /* UIImage+Awesome.swift in Sources */,
 				0AD853F11DB9A0BD003B5C7B /* IntroductionViewController.swift in Sources */,
 				0AD853F41DB9A0D2003B5C7B /* TicketsViewController.m in Sources */,
 				0AD853FA1DB9B09A003B5C7B /* TransportationCollectionViewCell.m in Sources */,
+				0AD854871DB9E384003B5C7B /* Extensions.swift in Sources */,
+				0AD8547C1DB9E384003B5C7B /* AwesomeData.swift in Sources */,
+				0AD854811DB9E384003B5C7B /* UIButton+Awesome.swift in Sources */,
 				0AD8539A1DB994E5003B5C7B /* AppDelegate.m in Sources */,
 				0AD853FD1DB9B0BA003B5C7B /* TicketOptionTableViewCell.m in Sources */,
+				0AD8541A1DB9DE9E003B5C7B /* Ticket.swift in Sources */,
+				0AD8547F1DB9E384003B5C7B /* AwesomeDataAccess.swift in Sources */,
+				0AD8549B1DBA1209003B5C7B /* LoadingView.swift in Sources */,
+				0AD854861DB9E384003B5C7B /* AwesomeFetcher.swift in Sources */,
 				0AD853971DB994E5003B5C7B /* main.m in Sources */,
 				0AD854101DB9B7B4003B5C7B /* UIView+Animation.m in Sources */,
+				0AD8547E1DB9E384003B5C7B /* AwesomeCacheManager.swift in Sources */,
+				0AD8549D1DBA1209003B5C7B /* UIView+Loading.swift in Sources */,
+				0AD854821DB9E384003B5C7B /* UICollectionViewCell+Awesome.swift in Sources */,
+				0AD8548F1DBA0D25003B5C7B /* NSDate+Custom.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,6 +745,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = S2DSCP4F3H;
 				INFOPLIST_FILE = OnTheRoad/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -612,6 +763,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = S2DSCP4F3H;
 				INFOPLIST_FILE = OnTheRoad/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -696,6 +848,7 @@
 				0AD853C41DB994E5003B5C7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0AD853C51DB994E5003B5C7B /* Build configuration list for PBXNativeTarget "OnTheRoadTests" */ = {
 			isa = XCConfigurationList;
@@ -704,6 +857,7 @@
 				0AD853C71DB994E5003B5C7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0AD853C81DB994E5003B5C7B /* Build configuration list for PBXNativeTarget "OnTheRoadUITests" */ = {
 			isa = XCConfigurationList;
@@ -712,6 +866,7 @@
 				0AD853CA1DB994E5003B5C7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

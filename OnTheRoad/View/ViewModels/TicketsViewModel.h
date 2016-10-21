@@ -8,16 +8,16 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-
-typedef enum{
-    TrainTicket,
-    BusTicket,
-    FlightTicket
-}TicketType;
+#import "Constants.h"
 
 @interface TicketsViewModel : NSObject
 
 @property (nonatomic, assign) TicketType selectedTicketType;
+
+#pragma mark - Data
+
+-(void)fetchTickets:(void (^)())success failure:(void (^)())failure;
+-(NSArray*)tickets;
 
 #pragma mark - Transportation Options
 
@@ -27,7 +27,8 @@ typedef enum{
 
 #pragma mark - Tickets
 
--(int)ticketCount;
+-(NSUInteger)ticketCount;
 -(UITableViewCell*)ticketCellForIndexPath:(NSIndexPath*)indexPath tableView:(UITableView*)tableView;
+-(void)willDisplayCell:(UITableViewCell*)cell atIndexPath:(NSIndexPath*)indexPath;
 
 @end

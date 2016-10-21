@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>AwesomeData.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>OnTheRoad.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +28,16 @@
 			<true/>
 		</dict>
 		<key>0AD853B81DB994E5003B5C7B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0AD854201DB9E2BB003B5C7B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0AD854281DB9E2BB003B5C7B</key>
 		<dict>
 			<key>primary</key>
 			<true/>

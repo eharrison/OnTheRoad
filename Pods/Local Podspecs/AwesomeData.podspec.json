@@ -1,0 +1,27 @@
+{
+  "name": "AwesomeData",
+  "version": "0.2.3",
+  "summary": "Handling Coredata has been made easy.",
+  "description": "Fetch data from URLs, parse JSON and save to Coredata easily.",
+  "homepage": "https://github.com/iOSWizards/AwesomeData",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Evandro Hoffmann": "evandro@itsdayoff.com"
+  },
+  "source": {
+    "git": "https://github.com/iOSWizards/AwesomeData.git",
+    "tag": "0.2.3"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AwesomeData/Classes/**/*.{swift}",
+  "dependencies": {
+    "ReachabilitySwift": [
+      "~> 3"
+    ]
+  }
+}
