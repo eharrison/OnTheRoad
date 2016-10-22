@@ -3,7 +3,7 @@
 Simple app that fetches JSON data performing a GET URL request and presents the data into a UICollectionView with a UITableView in it.
 The UICollectionView is paginated and can also be controlled from @IBAction.
 
-![](https://s15.postimg.org/g144huuhh/trains.png) | ![](https://s15.postimg.org/qy5g6mh91/busses.png) | ![](https://s15.postimg.org/ekslzprkl/flights.png)
+![](https://s10.postimg.org/g144huuhh/trains.png) | ![](https://s10.postimg.org/qy5g6mh91/busses.png) | ![](https://s10.postimg.org/ekslzprkl/flights.png)
 
 ##Requirements
 
