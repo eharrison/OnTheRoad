@@ -196,7 +196,7 @@
                                                                     <rect key="frame" x="0.0" y="28" width="375" height="100"/>
                                                                     <autoresizingMask key="autoresizingMask"/>
                                                                     <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="XKd-4t-aHv" id="Qdo-qW-DYS">
-                                                                        <frame key="frameInset" width="375" height="99"/>
+                                                                        <frame key="frameInset" width="375" height="99.5"/>
                                                                         <autoresizingMask key="autoresizingMask"/>
                                                                         <subviews>
                                                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xw7-af-pMT">
@@ -210,8 +210,8 @@
                                                                                 <color key="textColor" red="0.12336107339999999" green="0.15581741930000001" blue="0.1862385869" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qqk-Qe-GuH">
-                                                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="€" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qqk-Qe-GuH">
+                                                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
                                                                                 <color key="textColor" red="0.73325240609999998" green="0.73337996009999995" blue="0.7332443595" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
@@ -244,12 +244,12 @@
                                                                         <constraints>
                                                                             <constraint firstItem="6XU-5q-KPd" firstAttribute="leading" secondItem="mk5-fd-zHn" secondAttribute="trailing" constant="9" id="3Xb-SB-so5"/>
                                                                             <constraint firstAttribute="bottom" secondItem="G9p-Q3-xSS" secondAttribute="bottom" constant="8" id="46r-BP-ZTj"/>
-                                                                            <constraint firstItem="qqk-Qe-GuH" firstAttribute="centerY" secondItem="H6t-n6-qxM" secondAttribute="centerY" id="57C-Xr-UoC"/>
                                                                             <constraint firstAttribute="trailing" secondItem="H6t-n6-qxM" secondAttribute="trailing" constant="15" id="60D-gs-Ms7"/>
                                                                             <constraint firstAttribute="bottom" secondItem="mk5-fd-zHn" secondAttribute="bottom" constant="8" id="7h5-6s-boV"/>
                                                                             <constraint firstAttribute="trailing" secondItem="6XU-5q-KPd" secondAttribute="trailing" constant="15" id="9hD-6A-Ayy"/>
                                                                             <constraint firstItem="H6t-n6-qxM" firstAttribute="leading" secondItem="qqk-Qe-GuH" secondAttribute="trailing" id="H8B-6O-jPj"/>
                                                                             <constraint firstItem="H6t-n6-qxM" firstAttribute="top" secondItem="Qdo-qW-DYS" secondAttribute="top" constant="20" id="LCV-Ed-Yh3"/>
+                                                                            <constraint firstItem="qqk-Qe-GuH" firstAttribute="bottom" secondItem="H6t-n6-qxM" secondAttribute="bottom" id="XCl-tU-qI5"/>
                                                                             <constraint firstItem="dwd-Gp-KlH" firstAttribute="leading" secondItem="L3z-Tx-mna" secondAttribute="trailing" constant="5" id="d5x-uv-9UN"/>
                                                                             <constraint firstItem="L3z-Tx-mna" firstAttribute="leading" secondItem="G9p-Q3-xSS" secondAttribute="trailing" constant="5" id="gAA-2p-d4V"/>
                                                                             <constraint firstItem="xw7-af-pMT" firstAttribute="leading" secondItem="Qdo-qW-DYS" secondAttribute="leading" constant="15" id="hJF-di-5nq"/>
