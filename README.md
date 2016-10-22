@@ -3,6 +3,8 @@
 Simple app that fetches JSON data performing a GET URL request and presents the data into a UICollectionView with a UITableView in it.
 The UICollectionView is paginated and can also be controlled from @IBAction.
 
+![myimage-alt-tag](https://github.com/eharrison/OnTheRoad/tree/master/Assets/flights.png)
+
 ##Requirements
 
 - iOS 7+
