@@ -9,6 +9,8 @@ The UICollectionView is paginated and can also be controlled from @IBAction.
 
 - iOS 7+
 - XCode 8+
+- Objective-C
+- Swift 3+
 
 ##Features
 
