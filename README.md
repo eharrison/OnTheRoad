@@ -14,7 +14,7 @@ The UICollectionView is paginated and can also be controlled from @IBAction.
 
 ##Features
 
-- Image Cashing
+- Image Caching
 - Async URLRequest
 - JSON Data Parsing
 - CoreData usage
